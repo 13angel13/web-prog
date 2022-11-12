@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Анкета регистрации участника на соревнования "Жемчужина востока"</h1>
+
+    <form action="https://google.com/search" metod="GET">
+        <div>
+            <label for="fame">Фамилия</label> <br>
+            <input type="text" id="fame" fame="q">
+        </div>
+
+        <div>
+            <label for="name">Имя</label> <br>
+            <input type="text" id="name" name="q">
+        </div>
+
+
+        <div>
+            <label for="oame">Отчество</label> <br>
+            <input type="text" id="oame" oame="q">
+        </div>
+
+        <div>
+            <label for="date">Дата рождения</label> <br>
+            <input type="date" id="oame" date="q">
+        </div>
+
+        <div>
+            <label for="phone">Телефон</label> <br>
+            <input type="text" id="phone" name="phone">
+        </div>
+
+        <div>
+            <label for="email">Email</label> <br>
+            <input type="email" id="email" name="email">
+        </div>
+
+        <div>
+            Выберете страну <br>
+            <select name="Страна">
+                <option value="Россия">Россия</option>
+                <option value="Казахстан">Казахстан</option>
+                <option value="Украина">Украина</option>
+                <option value="Белорусия">Белорусия</option>
+            </select>
+        </div><br>
+
+        <div>Пожелание к конкурсу</div>
+        <div>
+            <textarea name="message" rows="10" cols="70"></textarea>
+        </div>
+
+        Выберете категорию в которой собираетесь участвовать <br>
+        <form action="/action_page.php">
+            <input type="radio" name="gender" value="nr" checked> 5 - 8 лет<br>
+            <input type="radio" name="gender" value="sr"> 9 - 12 лет<br>
+            <input type="radio" name="gender" value="ne"> 13 - 17 лет<br>
+            <input type="radio" name="gender" value="ne"> 18 - 35 лет<br>
+            <input type="radio" name="gender" value="ne"> 36 - 59 лет<br>
+            <input type="radio" name="gender" value="ne"> 60+ лет<br>
+        </form> <br>
+     
+            Выберете номенации в которой собираетесь участвовать 
+            <form>
+                <input type="checkbox" name="vehicle1" value="Bike">Классика<br>
+                <input type="checkbox" name="vehicle2" value="Car">Эстрадная песня<br>
+                <input type="checkbox" name="vehicle1" value="Bike">Фольклор<br>
+                <input type="checkbox" name="vehicle1" value="Bike">Классическая песня<br>
+                <input type="checkbox" name="vehicle1" value="Bike">Фьюжен<br>
+                <input type="checkbox" name="vehicle1" value="Bike">Табла<br>
+                <input type="checkbox" name="vehicle1" value="Bike">Фольклор<br>
+                <input type="checkbox" name="vehicle1" value="Bike">Импровизация под оркестр<br>
+                <input type="checkbox" name="vehicle1" value="Bike">Импровизация под дарбуку<br>
+            </form>
+   
+        <div>
+            <br> <button>Отправить</button>
+        </div>
+    </form>
+
+
+</body>
+</html>
